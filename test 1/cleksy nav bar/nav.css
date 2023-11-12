@@ -1,0 +1,33 @@
+.container{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-left: 150px;
+     margin-right: 150px;
+     padding-top: 30px;
+}
+
+.logo{
+    font-size: 48px; 
+    font-weight: bold;
+}
+
+.links{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #163a24;
+}
+
+.btn{
+    background-color: #15762e;
+    padding: 15px 25px;
+    border-radius: 60px;
+
+}

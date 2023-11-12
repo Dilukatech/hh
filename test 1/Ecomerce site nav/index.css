@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+    font-family: sans-serif;
+    align-items: center;
+}
+.top-line{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+}
+
+.logo{
+    font-size: 40px;
+}
+
+.login{
+    display: flex;
+    gap: 20px;
+}
+
+.lg-btn{
+   
+    /* border-width: 1px; */
+    /* border-color: black; */
+    color: black;
+   padding: 2px 20px;
+  border: 1px solid black;
+  width: 120px;
+  height: 30px;
+}
